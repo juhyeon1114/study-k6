@@ -4,5 +4,5 @@ import {OPTIONS} from "./common.js";
 export const options = OPTIONS;
 
 export default function () {
-	http.get('http://localhost:8080/api/posts');
+	http.post('http://localhost:8080/api/posts/async');
 }
